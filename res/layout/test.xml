@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+                <TextView
+                android:id="@+id/about_textview_weixin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="3dp"
+                android:clickable="true"
+                
+                android:drawableLeft="@drawable/dis_about_weixin"
+                android:drawableRight="@drawable/dis_about_weixin"
+                android:drawableTop="@drawable/dis_about_weixin"
+                android:drawableBottom="@drawable/dis_about_weixin"
+                
+                
+                android:gravity="center_horizontal"
+                android:text="微信"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+</LinearLayout>
